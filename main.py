@@ -81,11 +81,11 @@ hdr_cells[4].text = 'Названия вложений'
 # Добавление строк
 for i, email_data in enumerate(output_data):
     row_cells = table.add_row().cells
-    row_cells[0].text = email_data["Дата/время"]
-    row_cells[1].text = email_data["Отправитель (от кого)"]
-    row_cells[2].text = email_data["Получатель (кому)"]
-    row_cells[3].text = email_data["Содержание письма / Тема"]
-    row_cells[4].text = email_data["Названия вложений"]
+    row_cells[0].text = email_data.get("Дата/время") or ""
+    row_cells[1].text = email_data.get("Отправитель (от кого)") or ""
+    row_cells[2].text = email_data.get("Получатель (кому)") or ""
+    row_cells[3].text = email_data.get("Содержание письма / Тема") or ""
+    row_cells[4].text = email_data.get("Названия вложений") or ""
 
 # Сохранение .docx файла
 doc_path = "emails.docx"
