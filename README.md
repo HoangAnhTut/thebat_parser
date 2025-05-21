@@ -23,8 +23,6 @@ It then generates a well-structured `.docx` file (`emails.docx`) with all the ex
 - `python-docx` — for generating Word documents with email tables.
 - `email` (standard library) — for reading and decoding `.eml` files.
 
-> 📌 `pandas` is listed in the `requirements.txt` but **not currently used** in the script.
-
 ## 🗂 Folder Structure
 
 ```
