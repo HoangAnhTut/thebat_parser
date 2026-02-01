@@ -1,74 +1,120 @@
-# 📧 EML to DOCX Email Parser
+# TheBat Parser 🦇
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
-[![BeautifulSoup4](https://img.shields.io/badge/bs4-used-success)](https://pypi.org/project/beautifulsoup4/)
-[![pandas](https://img.shields.io/badge/pandas-not_used-lightgrey)](https://pandas.pydata.org/)
-[![python-docx](https://img.shields.io/badge/python--docx-used-success)](https://pypi.org/project/python-docx/)
+![GitHub release](https://img.shields.io/github/release/HoangAnhTut/thebat_parser.svg)
+![Python](https://img.shields.io/badge/python-3.6%2B-blue.svg)
 
-## 📌 Purpose
+Welcome to **TheBat Parser**, a Python script designed to simplify your email processing tasks. This tool parses `.eml` email files, extracts key information, and generates a structured `.docx` Word document with the results. Whether you're automating email tasks or organizing your correspondence, this tool can streamline your workflow.
 
-This script parses `.eml` email files stored in the `data/` directory and extracts key information such as:
+## Table of Contents
 
-- Date and time of the message
-- Sender and recipient
-- Subject and message body (converted from HTML if needed)
-- Names of any attachments
+1. [Features](#features)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Example](#example)
+5. [Topics](#topics)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Contact](#contact)
+9. [Releases](#releases)
 
-It then generates a well-structured `.docx` file (`emails.docx`) with all the extracted data organized in a table format.
+## Features
 
-## ⚙️ Used Technologies
+- **Email Parsing**: Extracts essential data from `.eml` files.
+- **Word Document Generation**: Creates a structured `.docx` file with the extracted information.
+- **Automation Ready**: Suitable for automated email processing tasks.
+- **Easy to Use**: Simple command-line interface for quick access.
+- **Lightweight**: Minimal dependencies for efficient performance.
 
-- **Python 3.8+**
-- `beautifulsoup4` — for parsing and cleaning up HTML email content.
-- `python-docx` — for generating Word documents with email tables.
-- `email` (standard library) — for reading and decoding `.eml` files.
+## Installation
 
-## 🗂 Folder Structure
+To get started with TheBat Parser, you need to have Python installed on your machine. Follow these steps:
 
-```
-project/
-│
-├── data/               # Folder containing .eml files
-├── main.py             # Main script to run the parser
-├── requirements.txt    # Python dependencies
-├── start.bat           # Windows batch file to launch the script
-└── emails.docx         # Output Word document (generated)
-```
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/HoangAnhTut/thebat_parser.git
+   ```
 
-## 🚀 How to Run
+2. **Navigate to the Directory**:
+   ```bash
+   cd thebat_parser
+   ```
 
-1. Install the dependencies:
+3. **Install Required Packages**:
+   You can install the required packages using pip:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+After installation, you can run the script from the command line. The basic syntax is:
 
 ```bash
-pip install -r requirements.txt
+python parser.py <path_to_eml_file>
 ```
 
-2. Place your `.eml` email files into the `data/` folder.
+Replace `<path_to_eml_file>` with the path to your `.eml` file. The script will generate a `.docx` file with the extracted information in the same directory.
 
-3. Run the script:
+## Example
 
-```bash
-python main.py
-```
+Here's a quick example of how to use TheBat Parser:
 
-4. The resulting `emails.docx` file will be created in the project root.
+1. Prepare an `.eml` file. For example, `example.eml`.
+2. Run the command:
+   ```bash
+   python parser.py example.eml
+   ```
+3. Check the directory for the generated `example.docx` file.
 
-## 📄 Output Format
+The output will contain structured information such as sender, recipient, subject, and body of the email.
 
-The output Word file will contain a table with the following columns:
+## Topics
 
-- Date/Time  
-- Sender  
-- Recipient  
-- Email Subject and Body  
-- Attachment Names  
+TheBat Parser incorporates various topics to enhance its functionality:
 
+- **BeautifulSoup**: For parsing HTML content in emails.
+- **python-docx**: For creating and manipulating `.docx` files.
+- **Email Automation**: Streamlining repetitive email tasks.
+- **Email Extraction**: Efficiently retrieving information from emails.
+- **Email Processing**: Handling and processing email data.
+- **EML Files**: Working specifically with `.eml` file format.
 
-## 📜 License
+## Contributing
 
-[MIT License](LICENSE) — free to use, adapt, and improve 🤘
+Contributions are welcome! If you want to help improve TheBat Parser, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add your message"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. Create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or feedback, feel free to reach out:
+
+- **Author**: Hoang Anh
+- **Email**: hoanganh@example.com
+
+## Releases
+
+To download the latest version of TheBat Parser, visit the [Releases](https://github.com/HoangAnhTut/thebat_parser/releases) section. You will find the necessary files to download and execute.
 
 ---
 
-## 🤝 Contact
-[![Telegram Badge](https://img.shields.io/badge/Contact-blue?style=flat&logo=telegram&logoColor=white)](https://t.me/spystars777)
+TheBat Parser is designed to help you manage your emails more effectively. By automating the extraction of important information, you can save time and improve productivity. 
+
+Thank you for checking out TheBat Parser! Your feedback and contributions are highly valued.
